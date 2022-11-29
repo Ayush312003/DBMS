@@ -47,7 +47,6 @@ SET Pancard_no = '98773637'
 WHERE Empid=5;
 
 
-
 ALTER TABLE Employee
 DROP PRIMARY KEY(Empid);
 
