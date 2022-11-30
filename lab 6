@@ -1,0 +1,20 @@
+//select distinct values of a column
+SELECT DISTINCT age FROM EMPLOYEE
+
+//to apply a condition for input data
+create table emp2(
+empid int,
+ename varchar(50),
+city varchar(50),
+salary int,
+
+check(salary>2000))
+
+//find age from dob
+
+select round(Months_Between(Sysdate, dob)/12) as Age from emp;
+
+//add a new column of age in physical level
+
+update emp
+set 'age' = select((round(Months_Between(Sysdate, dob)/12);
