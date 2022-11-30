@@ -1,0 +1,12 @@
+//alias use 'as'
+SELECT AVG(Salary) as AVG_Salary FROM Employee
+
+//create view table
+CREATE VIEW xyz as
+SELECT Ename FROM Employee
+
+//for reduction or operation in table
+CREATE VIEW red as
+SELECT (salary-1000) as reduction FROM Employee
+
+SELECT * FROM red
