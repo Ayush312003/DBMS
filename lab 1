@@ -5,7 +5,6 @@ CREATE TABLE Product110 (
     Amount int,
     City_of_Delivery varchar(255)
 );
-
 INSERT INTO Product110
 VALUES('345', 'Book', '22 july', '1500', 'Dehradun');
 
